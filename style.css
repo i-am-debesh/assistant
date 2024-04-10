@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(0, 0, 0, 0.827);
+    color: white;
+    padding: 10px;
+    
+}
+.responses {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#response{
+    margin-top: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.main-btn {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(21, 182, 83, 0.504);
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+#riddle-ans{
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    margin-top: 20px;
+}

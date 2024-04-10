@@ -1,0 +1,199 @@
+[
+  
+  {
+    "command": "hello",
+    "response": "Hello! How can I assist you?"
+  },
+  {
+    "command": "hi",
+    "response": "Hi there! how can I assist you?"
+  },
+  {
+    "command": "how are you",
+    "response": "I'm doing well, thank you for asking!"
+  },
+  {
+    "command": "what's your name",
+    "response": "I'm just a bot, I don't have a name."
+  },
+  {
+    "command": "what time is it",
+    "response": "The current time is ${getTime()}"
+  },
+  {
+    "command": "goodbye",
+    "response": "Goodbye! Have a great day!"
+  },
+  {
+    "command": "thank you",
+    "response": "You're welcome!"
+  },
+  {
+    "command": "please",
+    "response": "Sure!"
+  },
+  {
+    "command": "tell me a joke",
+    "response": "Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "command": "who made you",
+    "response": "I was created by a team of talented developers."
+  },
+  {
+    "command": "what is the capital of France",
+    "response": "The capital of France is Paris."
+  },
+  {
+    "command": "how do you do",
+    "response": "I'm just a robot, I don't 'do' anything."
+  },
+  {
+    "command": "how old are you",
+    "response": "I don't have an age, I'm a computer program."
+  },
+  {
+    "command": "what is your purpose",
+    "response": "My purpose is to assist you with tasks and provide information."
+  },
+  {
+    "command": "where are you",
+    "response": "I exist in the digital realm, here to help you wherever you are."
+  },
+  {
+    "command": "what is the weather today",
+    "response": "The weather today is [insert weather conditions here]."
+  },
+  {
+    "command": "how do I get to [destination]",
+    "response": "To get to [destination], you can [provide directions here]."
+  },
+  {
+    "command": "what is your favorite color",
+    "response": "I don't have preferences like humans, but I guess I like all colors."
+  },
+  {
+    "command": "can you help me",
+    "response": "Of course! I'm here to help you with anything you need."
+  },
+  {
+    "command": "what is the meaning of life",
+    "response": "The meaning of life is subjective and varies for each individual."
+  },
+  {
+    "command": "what is your favorite food",
+    "response": "I don't eat food, so I don't have a favorite."
+  },
+  {
+    "command": "can you sing",
+    "response": "I'm afraid I can't sing, but I can provide information or assistance."
+  },
+  {
+    "command": "what is the square root of 144",
+    "response": "The square root of 144 is 12."
+  },
+  {
+    "command": "can you dance",
+    "response": "I don't have a body, so I can't dance."
+  },
+  {
+    "command": "what is your favorite movie",
+    "response": "I don't watch movies, but I can help you find information about movies."
+  },
+  {
+    "command": "can you tell me a story",
+    "response": "Once upon a time..."
+  },
+  {
+    "command": "what is the population of [city/country]",
+    "response": "The population of [city/country] is [population]."
+  },
+  {
+    "command": "what is your favorite song",
+    "response": "I don't have preferences like humans, so I don't have a favorite song."
+  },
+  {
+    "command": "can you do a magic trick",
+    "response": "Abracadabra! ... Just kidding, I'm not capable of magic tricks."
+  },
+  {
+    "command": "what is the meaning of love",
+    "response": "Love is a complex emotion that varies from person to person."
+  },
+  {
+    "command": "can you cook",
+    "response": "I don't have hands or a physical form, so I can't cook."
+  },
+  {
+    "command": "what is the speed of light",
+    "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second."
+  },
+  {
+    "command": "can you tell me a fun fact",
+    "response": "Sure! Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible!"
+  },
+  {
+    "command": "what is your favorite book",
+    "response": "I don't read books, but I can provide information about them."
+  },
+  {
+    "command": "can you play a game",
+    "response": "I can't play physical games, but I can suggest some online games."
+  },
+  {
+    "command": "what is the capital of Japan",
+    "response": "The capital of Japan is Tokyo."
+  },
+  {
+    "command": "can you tell me a riddle",
+    "response": "Sure! What has keys but can't open locks? A piano!"
+  },
+  {
+    "command": "what is your favorite animal",
+    "response": "I don't have preferences like humans, so I don't have a favorite animal."
+  },
+  {
+    "command": "can you do my homework",
+    "response": "I can't do your homework for you, but I can help you understand concepts and find resources."
+  },
+  {
+    "command": "what is the meaning of happiness",
+    "response": "Happiness is a state of well-being and contentment."
+  },
+  {
+    "command": "can you tell me a science fact",
+    "response": "Sure! Did you know that a group of flamingos is called a 'flamboyance'?"
+  },
+  {
+    "command": "what is the largest planet in the solar system",
+    "response": "The largest planet in the solar system is Jupiter."
+  },
+  {
+    "command": "can you tell me a bedtime story",
+    "response": "Once upon a time, in a land far, far away..."
+  },
+  {
+    "command": "what is the distance from Earth to the Moon",
+    "response": "The average distance from Earth to the Moon is about 384,400 kilometers."
+  },
+  {
+    "command": "can you tell me a myth",
+    "response": "Sure! Did you know that in Greek mythology, Zeus was the king of the gods and the ruler of Mount Olympus?"
+  },
+  {
+    "command": "what is the boiling point of water",
+    "response": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit)."
+  },
+  {
+    "command": "sing a song",
+    "response": "Sorry but currently I dont know how to sing"
+  },
+  {
+    "command": "thanks",
+    "response": "You're welcome! If you have any more questions or need further assistance, feel free to ask"
+  },
+  {
+    "command": "thank you",
+    "response": "You're welcome! If you have any more questions or need further assistance, feel free to ask"
+  }
+]
