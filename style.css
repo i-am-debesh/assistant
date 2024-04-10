@@ -6,7 +6,7 @@ body{
 }
 .responses {
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 35px;
 }
 
 #response{
@@ -30,6 +30,6 @@ body{
 #riddle-ans{
     display: flex;
     justify-content: center;
-    margin-left: -150px;
+    margin-left: -50px;
     margin-top: 20px;
 }
