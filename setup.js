@@ -1,4 +1,4 @@
-if(localStorage.length === 0 && localStorage.length < 30) {
+if(localStorage.length === 0 || localStorage.length < 30) {
   updateLocalStorage();
 }
 
