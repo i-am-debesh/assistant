@@ -62,7 +62,6 @@ async function giveResponse(command) {
         
         if(currCommand === command) {
             let currResponse = (JSON.parse(localStorage.getItem(i))).response;
-            writeResponse(currResponse);
             speak(currResponse);
             validCommand = true;
             
