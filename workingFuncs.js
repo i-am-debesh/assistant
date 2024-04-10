@@ -24,7 +24,14 @@ function getcurrentDate() {
 }
 
 function solve(problem) {
-    const result = eval(problem);
+    let p ;
+    if(problem.includes('x')) {
+        p = problem.replace('x','*');
+        
+    }else {
+        p = problem;
+    }
+    const result = eval(p);
     return result;
 }
 

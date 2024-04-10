@@ -13,21 +13,14 @@ recognition.onresult = function(event) {
   let result = event.results[event.results.length - 1][0].transcript;
   document.getElementById('result').textContent = `Command: ${result}`;
   
-  processCommand(result);
+  workOn(result);
 };
 
 recognition.onerror = function(event) {
   console.error('Speech recognition error:', event.error);
 };
 
-
-function startListening() {
-
-  const area = document.getElementById('riddle-ans');
-  area.textContent = '';
-  //recognition.start();
-  const msg = prompt();
-  //console.log(msg);
+function workOn(msg) {
   resultArea.textContent = `Command: ${msg}`;
   if(msg.length !== 0 && msg !== 'again') {
     processCommand(msg);
@@ -35,6 +28,15 @@ function startListening() {
   }else if(msg === 'again') {
     processCommand(currCommand);
   }
+}
+function startListening() {
+
+  const area = document.getElementById('riddle-ans');
+  area.textContent = '';
+  recognition.start();
+  //const msg = prompt();
+  //console.log(msg);
+  //workOn();
 }
 ////////////////////////////////////////////
 
