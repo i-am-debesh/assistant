@@ -1,3 +1,3 @@
-let str = 'recipe of pizza';
-let dish = str.replace("recipe of","");
-console.log(dish.trim());
+require('dotenv').config();
+const API_KEY = process.env.API_KEY;
+console.log(API_KEY);

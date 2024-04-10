@@ -1,4 +1,5 @@
-const API_KEY = 'p4dR1DH8aQQUvYZbHAlIoQ==MhL2SxAc0cnwNkTZ';
+require('dotenv').config();
+const API_KEY = process.env.API_KEY;
 async function searchWiki(topic) {
     
     const url = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${topic}&limit=1`;
